@@ -1,0 +1,10 @@
+HƯỚNG DẪN SỬ DỤNG:
+
+- Tên tập tin chạy là sentiment_analysis.py
+- Chương trình viết dưới dạng dòng lệnh, hỗ trợ 2 tham số bắt buộc là input (câu đầu vào) và result (file kết quả). 
+- Chú ý cần giữ nguyên cấu trúc thư mục UIT-VSFC (nằm cùng với thư mục chứa file sentiment_analysis.py)
+- Chương trình chỉ hỗ trợ nhận input là một câu đầu vào, KHÔNG hỗ trợ nhận file
+
+Ví dụ:
+python sentiment_analysis.py --input "Môn học rất bổ ích" --result sentiment.txt
+Trong đó: --input "Môn học rất bổ ích" là câu đầu vào, sentiment.txt chứa cảm xúc, kết quả là 0 hoặc 1 hoặc 2
